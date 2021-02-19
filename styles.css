@@ -1,0 +1,126 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #e4e4e4;
+}
+body {
+    background-color: rgb(51, 51, 51);
+    color: #e4e4e4;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+.top-head {
+    grid-template-columns:
+    minmax(0.9rem, 1fr)
+    minmax(auto, 71ch)
+    minmax(0.9rem, 1fr);
+    display: grid;
+    width: 100%;
+    overflow-x: hidden;
+    min-height: 225px;
+    background-color: rgba(37, 37, 44, 0.6);
+    padding-left: 7px;
+    margin: 0px;
+    z-index: 9;
+}
+
+.title-section {
+    grid-column: 2;
+    align-self: flex-end;
+    max-height: fit-content;
+    line-height: 2em;
+    margin-bottom: 3.25em;
+}
+
+.box-link {
+    margin-bottom: 30px;
+    width: 60px;
+    height: 20px;
+    grid-column: 2;
+    margin-top: 3em;
+    box-shadow: 5px 6px #e4e4e4; 
+    border: 3.25px solid; 
+    border-radius: 4px;
+    padding: 5px;
+    color: #e4e4e4;
+    font-weight: 500;
+    font-size: 11pt;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dark-toggle {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+ .title {
+    color: #e4e4e4;
+    justify-self: center;
+    font-size: 25pt;
+    font-weight: 600;
+    line-height: 1.05em;
+    font-family: 'Lora',serif;
+    max-height: fit-content;
+    margin-bottom: 0.50em;
+}
+
+.date {
+    color: #e4e4e4;
+    font-size: 9pt;
+    /* margin-top: 0.9em; */
+    margin-bottom: 0.75em;
+}
+
+.TagLink::before {
+    content: "🏷️ ";
+}
+
+.TagLink {
+    font-size: 9.35pt; 
+    font-weight: 600; 
+    color: var(--box-shadow-color);
+    border-radius: 5px;
+    padding: 4.35px; 
+    background-color: rgba(153, 153, 153, 0.30);
+    transition: all 0.15s ease;
+    border-bottom: 0px;
+}
+
+.body-text {
+    grid-template-columns:
+    minmax(0.9rem, 1fr)
+    minmax(auto, 71ch)
+    minmax(0.9rem, 1fr);
+    display: grid;
+    padding-left: 5px;
+    margin-top: 2em;
+    grid-column: 2;
+    font-size: 12pt;
+    line-height: 1.85rem;
+    padding-bottom: 3em;
+    
+}
+
+.body-text p {
+    grid-column: 2;
+    line-height: 2em;
+   
+}
+
+.callout::before {
+    content: "⭐ ";
+  }
+
+  .callout {
+    background-color:  rgba(90, 90, 90, 0.2);
+    padding: 13.5px;
+    line-height: 1.60rem;
+    border-radius: 5px;
+  }
