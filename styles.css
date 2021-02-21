@@ -17,7 +17,7 @@ body {
     background-color: rgb(51, 51, 51);
     color: #e4e4e4;
     font-family: 'Inter', sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .top-head {
