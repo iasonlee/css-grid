@@ -13,10 +13,11 @@ a {
     color: #e4e4e4;
 }
 body {
+    max-width: 100%;
     background-color: rgb(51, 51, 51);
     color: #e4e4e4;
     font-family: 'Inter', sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .top-head {
