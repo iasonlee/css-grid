@@ -8,13 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
-    <title>grid-css</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js" integrity="sha512-9GIHU4rPKUMvNOHFOer5Zm2zHnZOjayOO3lZpokhhCtgt8FNlNiW/bb7kl0R5ZXfCDVPcQ8S4oBdNs92p5Nm2w==" crossorigin="anonymous"></script>
+    <title>css blog grid</title>
 </head>
 <body>
     <div class="top-head">
+        <a class="home-link" href="/">sansserif.io</a>
         <a class="box-link" href="/">← posts</a>
         <div class="title-section">
-            <h1 class="title">My attempt at making the perfect simple blog grid layout with CSS</h1>
+            <h1 class="title">An attempt at making my ideal simple blog grid layout with CSS</h1>
             <p class="date">February 18, 2021</p>
             <a class="tag-link" href="/">1st tag here</a>
             <a class="tag-link" href="/">2nd tag here</a>
@@ -24,8 +27,36 @@
         <div class="body-text">
             <p class="callout">Here is the general callout location. It'll get pushed around by the top heading always staying its distance.</p>
             <p>I'm working on the perfect grid for a blog site that uses a single page template. The template is just about the placement of items to make sure that regardless of titles or lengths of different text items, the overall look and feel is almost identical. I'll be making changes and making the CSS smaller and smaller until it is optimized. I'm going to be using the grid myself on <a href="https://sansserif.io">my own blog</a> once I finish + polish things up.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>The grid is set up and ready for things like code snippets: </p>
+<pre>
+<code class = 'python'>hi = ["hi", "look", "at", "this", "code-block"]
+for i in hi:
+  print(i)
+print('hello and welcome to my new site where code can be horizontally scrolled')
+print('also vertically scrollable')
+bye = ["ok", "goodbye", "now"]
+for j in bye:
+  print(j)
+</code>
+</pre>
+            <p>and even inline TeX writing with Math-Jax. $x\in y$</p>
+            
+                
+            
         </div>
     </div>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script type="text/javascript"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+    <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    processEscapes: true
+                }
+            });
+    </script>
 </body>
 </html>
