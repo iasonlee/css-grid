@@ -13,9 +13,9 @@
     * {
         --body:rgb(252, 252, 252);
         --body-text: #272727;
-        --callout-bg:rgba(190, 190, 190, 0.2);
-        --body-heading: rgba(236, 225, 225, 0.2);
-        --tag-link-bg: rgba(175, 175, 175, 0.2);
+        --callout-bg:rgba(220, 220, 220, 0.2);
+        --body-heading: rgba(220, 220, 220, 0.2);
+        --tag-link-bg: rgba(138, 138, 138, 0.1);
     }
 }
 
