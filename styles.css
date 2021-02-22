@@ -7,6 +7,7 @@
     --callout-bg:rgba(90, 90, 90, 0.2);
     --dotted-line: rgba(226, 226, 226, 0.65);
     --link-line: rgb(226, 105, 105);
+    --separator: rgba(206, 206, 206, 0.5);
 }
 
 /*
@@ -16,10 +17,11 @@
     * {
         --body:rgb(253, 253, 253);
         --body-text: #272727;
-        --callout-bg:rgba(220, 220, 220, 0.2);
+        --callout-bg:rgba(224, 224, 224, 0.2);
         --body-heading: rgba(240, 240, 240, 0.60);
         --dotted-line: rgba(68, 68, 68, 0.65);
         --link-line: rgb(47, 214, 144);
+        --separator: rgba(90, 90, 90, 0.5);
     }
 }
 
@@ -48,6 +50,8 @@ body {
 h3 {
     font-family: 'Lora',serif;
     margin-bottom: 0.5em;
+    border-bottom: 0.70px solid var(--separator);
+    padding-bottom: 3px;
 }
 
 .top-head {
@@ -175,15 +179,12 @@ h3 {
     overflow-x: hidden;
 }
 
-.callout::before {
-    content: "■ ";
-}
-
 .callout {
+    border-left: 3.25px solid var(--dotted-line);
     background-color:  var(--callout-bg);
     padding: 13.5px;
     line-height: 1.60rem;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     margin-bottom: 1.5em;
     overflow-x: hidden;
 }
