@@ -21,18 +21,16 @@
 }
 
 
-
 a {
     text-decoration: none;
     color: var(--body-text);
     border-bottom: 1.5px solid var(--link-line);
     padding-bottom: 1.85px;
     font-weight: 420;
-    
+    overflow-x: hidden;
 }
 
 body {
-    max-width: 100%;
     background-color: var(--body);
     color: var(--body-text);
     font-family: 'Inter', sans-serif;
@@ -46,7 +44,6 @@ body {
     minmax(auto, 71ch)
     minmax(0.9rem, 1fr);
     display: grid;
-    width: 100%;
     min-height: 210px;
     background-color: var(--body-heading);
     padding-left: 7px;
@@ -77,6 +74,7 @@ body {
     font-size: 9pt;
     text-decoration: none;
     cursor: pointer;
+    overflow-x: hidden;
 }
 
 .box-link {
@@ -93,6 +91,7 @@ body {
     font-size: 11pt;
     text-decoration: none;
     cursor: pointer;
+    overflow-x: hidden;
 }
 
  .title {
@@ -107,6 +106,7 @@ body {
     grid-column: 2;
     padding-left: 2px;
     padding-right: 2px;
+    overflow-x: hidden;
 }
 
 .date {
@@ -114,6 +114,7 @@ body {
     font-size: 9pt;
     padding-left: 2px;
     font-weight: 520;
+    overflow-x: hidden;
 }
 
 .tag-link::before {
@@ -183,7 +184,6 @@ code {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    background-color:  rgba(--quote-color);
     min-width: 300px;
     max-height: 100px;
     margin-right: 2px;
