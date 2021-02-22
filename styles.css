@@ -1,20 +1,23 @@
 * {
     padding: 0px;
     margin: 0px;
-    --body: rgb(51, 51, 51);
-    --body-heading: rgba(41, 41, 41, 0.75);
+    --body: rgb(55, 55, 55);
+    --body-heading: rgba(35, 35, 35, 0.75);
     --body-text: #e4e4e4;
     --callout-bg:rgba(90, 90, 90, 0.2);
     --dotted-line: rgba(226, 226, 226, 0.65);
     --link-line: rgb(226, 105, 105);
 }
 
+/*
+* Colors for automatic dark mode 
+*/
 @media (prefers-color-scheme: light) {
     * {
-        --body:rgb(252, 252, 252);
+        --body:rgb(253, 253, 253);
         --body-text: #272727;
         --callout-bg:rgba(220, 220, 220, 0.2);
-        --body-heading: rgba(240, 240, 240, 0.75);
+        --body-heading: rgba(233, 233, 233, 0.75);
         --dotted-line: rgba(68, 68, 68, 0.65);
         --link-line: rgb(47, 214, 144);
     }
@@ -28,6 +31,10 @@ a {
     padding-bottom: 1.85px;
     font-weight: 420;
     overflow-x: hidden;
+}
+
+a:hover {
+    border-bottom: 1.5px dashed var(--link-line);
 }
 
 body {
@@ -75,6 +82,10 @@ body {
     text-decoration: none;
     cursor: pointer;
     overflow-x: hidden;
+}
+
+.home-link:hover {
+    border-bottom: 1px solid var(--body-text);
 }
 
 .box-link {
