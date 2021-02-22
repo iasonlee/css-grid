@@ -14,7 +14,7 @@
         --body:rgb(252, 252, 252);
         --body-text: #272727;
         --callout-bg:rgba(220, 220, 220, 0.2);
-        --body-heading: rgba(220, 220, 220, 0.2);
+        --body-heading: rgba(223, 223, 223, 0.2);
         --tag-link-bg: rgba(138, 138, 138, 0.1);
     }
 }
@@ -22,7 +22,7 @@
 a {
     text-decoration: none;
     color: var(--body-text);
-    border-bottom: 2px solid rgb(210, 135, 135);
+    border-bottom: 2px solid rgb(255, 180, 180);
     padding-bottom: 1.50px;
     font-weight: 420;
 }
@@ -104,11 +104,13 @@ body {
     font-size: 9.35pt; 
     font-weight: 600; 
     color: var(--body-text);
-    border-radius: 5px;
+    /* border-radius: 5px; */
     padding: 4.35px; 
-    background-color: var(--tag-link-bg);
+    /* background-color: var(--tag-link-bg); */
+    border-bottom: 2px dotted rgb(255, 180, 180);
     transition: all 0.15s ease;
-    border-bottom: 0px;
+    margin-right: 8px;
+    /* border-bottom: 0px; */
 }
 
 .main-section {
