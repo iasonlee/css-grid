@@ -54,7 +54,7 @@ body {
     align-self: flex-end;
     max-height: fit-content;
     line-height: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .box-link {
@@ -104,13 +104,8 @@ body {
     font-size: 9.35pt; 
     font-weight: 600; 
     color: var(--body-text);
-    /* border-radius: 5px; */
-    padding: 4.35px; 
-    /* background-color: var(--tag-link-bg); */
-    border-bottom: 2px dotted rgb(255, 180, 180);
-    transition: all 0.15s ease;
+    border-bottom: 2px dotted rgba(255, 180, 180, 0.9);
     margin-right: 8px;
-    /* border-bottom: 0px; */
 }
 
 .main-section {
@@ -124,7 +119,7 @@ body {
 
 .body-text {
     padding-left: 5px;
-    margin-top: 2em;
+    margin-top: 1.5em;
     grid-column: 2;
     font-size: 12pt;
     line-height: 1.85rem;
@@ -146,5 +141,5 @@ body {
     padding: 13.5px;
     line-height: 1.60rem;
     border-radius: 5px;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
