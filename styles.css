@@ -14,7 +14,7 @@
         --body:rgb(252, 252, 252);
         --body-text: #272727;
         --callout-bg:rgba(220, 220, 220, 0.2);
-        --body-heading: rgba(220, 220, 220, 0.2);
+        --body-heading: rgba(225, 225, 225, 0.2);
         --tag-link-bg: rgba(138, 138, 138, 0.1);
     }
 }
@@ -92,7 +92,6 @@ body {
     color: var(--body-text);
     font-size: 9pt;
     padding-left: 2px;
-    margin-bottom: 0.35em;
     font-weight: 420;
 }
 
