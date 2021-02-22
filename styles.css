@@ -14,7 +14,7 @@
         --body:rgb(252, 252, 252);
         --body-text: #272727;
         --callout-bg:rgba(220, 220, 220, 0.2);
-        --body-heading: rgba(223, 223, 223, 0.2);
+        --body-heading: rgba(235, 235, 235, 0.25);
         --tag-link-bg: rgba(138, 138, 138, 0.1);
     }
 }
