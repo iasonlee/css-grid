@@ -105,7 +105,8 @@ body {
     font-weight: 600; 
     color: var(--body-text);
     border-bottom: 2px dotted rgba(255, 180, 180, 0.9);
-    margin-right: 8px;
+    padding-bottom: 2px;
+    margin-right: 10px;
 }
 
 .main-section {
