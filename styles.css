@@ -173,7 +173,7 @@ h3 {
 }
 
 .callout::before {
-    content: "⭐ ";
+    content: "■ ";
 }
 
 .callout {
