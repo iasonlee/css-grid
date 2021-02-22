@@ -7,7 +7,7 @@
     --callout-bg:rgba(90, 90, 90, 0.2);
     --dotted-line: rgba(226, 226, 226, 0.65);
     --link-line: rgb(226, 105, 105);
-    --separator: rgba(206, 206, 206, 0.5);
+    --separator: rgba(206, 206, 206, 0.35);
 }
 
 /*
@@ -21,7 +21,7 @@
         --body-heading: rgba(240, 240, 240, 0.60);
         --dotted-line: rgba(68, 68, 68, 0.65);
         --link-line: rgb(47, 214, 144);
-        --separator: rgba(90, 90, 90, 0.5);
+        --separator: rgba(90, 90, 90, 0.35);
     }
 }
 
