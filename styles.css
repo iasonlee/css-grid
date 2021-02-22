@@ -110,6 +110,9 @@ h3 {
     overflow-x: hidden;
 }
 
+.box-link:hover {
+    border: 3.25px solid; 
+}
  .title {
     color: var(--body-text);
     justify-self: center;
