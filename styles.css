@@ -45,6 +45,11 @@ body {
     overflow-x: hidden;
 }
 
+h3 {
+    font-family: 'Lora',serif;
+    margin-bottom: 0.5em;
+}
+
 .top-head {
     grid-template-columns:
     minmax(0.9rem, 1fr)
@@ -72,7 +77,7 @@ body {
     height: 20px;
     border-bottom: 1px dashed var(--body-text);
     padding-bottom: 0px;
-    width: 78px;
+    width: 90px;
     grid-column: 2;
     margin-top: 3em;
     margin-bottom: 1.75em;
@@ -203,4 +208,9 @@ code {
     margin: 0;
     overflow-x: scroll;
     overflow-y: scroll;
+  }
+
+  ul {
+      margin-left: 1em;
+      margin-bottom: 1em;
   }
