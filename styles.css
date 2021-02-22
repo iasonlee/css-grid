@@ -65,7 +65,7 @@ body {
     height: 20px;
     border-bottom: 1px dashed var(--body-text);
     padding-bottom: 0px;
-    width: 65px;
+    width: 80px;
     grid-column: 2;
     margin-top: 3em;
     margin-bottom: 1.75em;
