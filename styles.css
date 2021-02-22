@@ -14,16 +14,17 @@
         --body:rgb(252, 252, 252);
         --body-text: #272727;
         --callout-bg:rgba(190, 190, 190, 0.2);
-        --body-heading: rgba(220, 205, 205, 0.2);
-        --tag-link-bg: rgba(199, 199, 199, 0.2);
+        --body-heading: rgba(230, 215, 215, 0.2);
+        --tag-link-bg: rgba(175, 175, 175, 0.2);
     }
 }
 
 a {
     text-decoration: none;
     color: var(--body-text);
-    border-bottom: 2px solid rgb(211, 127, 127);
+    border-bottom: 2px solid rgb(210, 135, 135);
     padding-bottom: 1.50px;
+    font-weight: 420;
 }
 
 body {
@@ -31,6 +32,7 @@ body {
     background-color: var(--body);
     color: var(--body-text);
     font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 
 .top-head {
