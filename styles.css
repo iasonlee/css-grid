@@ -61,6 +61,7 @@ body {
     max-height: fit-content;
     line-height: 2em;
     margin-bottom: 1.3em;
+    overflow-x: hidden;
 }
 
 .home-link {
@@ -70,7 +71,7 @@ body {
     width: 65px;
     grid-column: 2;
     margin-top: 3em;
-    margin-bottom: 1.40em;
+    margin-bottom: 1.75em;
     color: var(--body-text);
     font-weight: 500;
     font-size: 9pt;
