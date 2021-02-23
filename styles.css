@@ -54,9 +54,9 @@ h3 {
 
 .top-head {
     grid-template-columns:
-    minmax(1rem, 1fr)
-    minmax(auto, 62ch)
-    minmax(1rem, 1fr);
+    minmax(1.25rem, 1fr)
+    minmax(auto, 60ch)
+    minmax(1.25rem, 1fr);
     display: grid;
     min-height: 210px;
     background-color: var(--body-heading);
@@ -148,9 +148,9 @@ h3 {
 .main-section {
     display: grid;
     grid-template-columns:
-    minmax(1rem, 1fr)
-    minmax(auto, 62ch)
-    minmax(1rem, 1fr);
+    minmax(1.25rem, 1fr)
+    minmax(auto, 60ch)
+    minmax(1.25rem, 1fr);
     z-index: 999;
     overflow-x: hidden;
 }
