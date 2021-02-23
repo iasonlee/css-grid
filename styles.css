@@ -6,8 +6,7 @@
     --body-text: #e4e4e4;
     --callout-bg:rgba(90, 90, 90, 0.2);
     --dotted-line: rgba(226, 226, 226, 0.65);
-    /* --link-line: rgb(226, 105, 105); */
-    --link-line: rgb(87, 209, 158);
+    --link-line: rgb(85, 210, 160);
     --separator: rgba(206, 206, 206, 0.20);
 }
 
@@ -21,11 +20,10 @@
         --callout-bg:rgba(224, 224, 224, 0.2);
         --body-heading: rgba(240, 240, 240, 0.60);
         --dotted-line: rgba(68, 68, 68, 0.65);
-        --link-line: rgb(22, 184, 116);
+        --link-line: rgb(15, 165, 105);
         --separator: rgba(90, 90, 90, 0.20);
     }
 }
-
 
 a {
     text-decoration: none;
@@ -35,7 +33,7 @@ a {
 }
 
 a:hover {
-    border-bottom: 1px solid var(--link-line);
+    text-decoration: underline;
 }
 
 body {
@@ -62,6 +60,7 @@ h3 {
     min-height: 210px;
     background-color: var(--body-heading);
     padding-left: 7px;
+    padding-right: 20px;
     margin: 0px;
     z-index: 9;
     overflow-x: hidden;
@@ -78,17 +77,33 @@ h3 {
 
 .home-link {
     height: 20px;
+    width: fit-content;
     padding-bottom: 0px;
-    width: 90px;
     grid-column: 2;
     margin-top: 3em;
-    margin-bottom: 1.75em;
+    margin-bottom: 1.25em;
     color: var(--body-text);
     font-weight: 500;
-    font-size: 9pt;
+    font-size: 10.5pt;
     text-decoration: none;
     cursor: pointer;
     overflow-x: hidden;
+}
+
+.dark-toggle {
+    position: relative;
+    margin-top: 2.30em;
+    width: 20px;
+    height: 21px;
+    color: var(--body-text);
+    font-weight: 600;
+    font-size: 13pt;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dark-toggle:hover {
+    text-decoration: none;
 }
 
 .box-link {
@@ -109,8 +124,10 @@ h3 {
 }
 
 .box-link:hover {
-    border: 3.25px solid; 
+    border: 3.25px solid;
+    text-decoration: none; 
 }
+
  .title {
     color: var(--body-text);
     justify-self: center;
@@ -173,22 +190,21 @@ h3 {
     overflow-x: hidden;
 }
 
-.callout {
-    border-left: 3.25px solid var(--dotted-line);
-    background-color:  var(--callout-bg);
-    padding: 13.5px;
-    line-height: 1.60rem;
-    /* border-radius: 5px; */
-    margin-bottom: 1.5em;
-    overflow-x: hidden;
-}
-
 /*
 * Not necessarily on every page.
 */
 
+.callout {
+    border-left: 3.25px solid var(--dotted-line);
+    background-color:  var(--callout-bg);
+    padding: 13.5px;
+    margin-bottom: 1.5em;
+    overflow-x: hidden;
+}
+
 pre {
     height: 135px;
+    margin-bottom: 2em;
 }
 
 code {
@@ -199,11 +215,10 @@ code {
     left: 50%;
     transform: translateX(-50%);
     min-width: 300px;
-    max-height: 100px;
+    max-height: 135px;
     margin-right: 2px;
     margin-top: 1em;
     border-radius: 8px;
-    margin: 0;
     overflow-x: scroll;
     overflow-y: scroll;
   }
