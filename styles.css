@@ -198,3 +198,27 @@ code {
   ol {
       margin-left: 2em;
   }
+
+  blockquote:before {
+    color: var(--body-text);
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  
+  blockquote {
+    grid-column: 2;
+    border-left: 3.25px solid var(--dotted-line);
+    background-color: var(--callout-bg);
+    margin: 1em 1px;
+    padding: 0.5em 10px;
+    font-size: 12pt;
+    line-height: 1.7rem;
+    quotes: "\201C""\201D""\2018""\2019";        
+  }
+
+  .dotted {
+      border-bottom: 2px dotted var(--dotted-line);
+  }

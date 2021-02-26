@@ -17,16 +17,31 @@
         <a class="box-link" href="/">← posts</a>
         <div class="title-section">
             <h1 class="title">Simple digital garden layout</h1>
-            <p class="date">February 18, 2021</p>
+            <p class="date">Updated on February 26</p>
             <a class="tag-link" href="/">1st tag here</a>
             <a class="tag-link" href="/">2nd tag here</a>
         </div>
     </div>
     <div class="main-section">
         <div class="body-text">
-            <p class="callout">Here is the general callout location. It'll get pushed around by the top heading always staying its distance.</p>
-            <p>I'm working on the perfect grid for a blog site that uses a single page template. The template focuses on the placement of items to make sure that regardless of titles or lengths of different text items, the overall look and feel is almost identical. I'll be making changes and making the CSS smaller and smaller until it is optimized. I'm going to be using a version of the grid myself on <a href="https://jplee.me/posts">my own site</a>.</p>
-            <p>The grid is set up and ready for things like code snippets: </p>
+            <p class="callout">This is a callout. It's good for TLDRs, but can be used for any text you want emphasized. They can also go anywhere between your text.</p>
+            <h3>About</h3>
+            <p>I'm working on a perfectly simple grid for a blog site that uses a single page template. 
+                The template focuses on the placement of items to make sure that regardless of titles or 
+                lengths of different text items, the overall look and feel is almost identical. 
+                I'll be making changes and making the CSS smaller and smaller until it is optimized. 
+                I'm using a version of the grid for <a href="https://jplee.me/posts">my own site</a>.</p>
+            <h3>Main features</h3>
+            <ul>
+                <li>Modern theme</li>
+                <li>Easily legible text</li>
+                <li>Scrollable code blocks with highlighting</li>
+                <li>Inline TeX</li>
+                <li>Automatic dark mode / light mode (85%+ coverage)</li>
+                <li>Grid layout that works seamlessly with many types of content and works well on mobile</li>
+                <li>Covers most items used in Markdown for an easy integration.</li>
+            </ul>
+            <p>So, the grid is set up and ready for things like <span class="dotted">code snippets</span>:</p>
 <pre>
 <code class = 'python'>hi = ["hi", "look", "at", "this", "code-block"]
 for i in hi:
@@ -39,20 +54,15 @@ for j in bye:
 </code>
 </pre>
             <p>and even inline TeX writing with Math-Jax. $\forall x\in\mathbb{R},\exists{y}\in\mathbb{R}:x\le y$ completely inline and allows you to continue writing.</p>
-            <h3>Main features</h3>
-            <ul>
-                <li>Modern theme</li>
-                <li>Scrollable code blocks with highlighting</li>
-                <li>Inline TeX</li>
-                <li>Automatic dark mode / light mode</li>
-                <li>Grid layout that works seamlessly with many types of content and works well on mobile</li>
-            </ul>
-            <p class="callout">Callouts can go anywhere on your pages. They can also be easily made into shortcodes on major site processors.</p>
-            <p>To use the grid in a .md processor, it is simple. You just need to place the form of {{.Content}} inside of the body-text div and set this HTML as your format for your single page layout. Then, cloning the CSS will get everything looking the same.
-                You'll want to update the tag-link (s) with a custom href and name based on your own post folder content. Same with the title, h1 title, box-link and home-link
-            </p>
+            <p>You can use <span class="dotted">blockquotes</span> for quotes. They follow the form of the callouts, so I may change their look a bit to make them more distinct.</p>
+            <blockquote><br>
+                The United States is also a one-party state but, with typical American extravagance, they have two of them.<br> 
+                - Julius Nyerere</blockquote>
             <h3>Clone</h3>
-            <p>If you happen to like the grid you can totally <a href="https://github.com/iasonlee/css-grid">copy it</a>. The easiest way would really be to just set up your individual page layout to follow the layout of this index and then set it to use the styles as well. Then you can keep different themes for other pages if you wish.</p>
+            <p>If you like the grid you can <a href="https://github.com/iasonlee/css-grid">copy it</a>. The easiest way would be to set up your individual page layout to follow the layout of this index and then set it to use the styles as well. Then you can keep different themes for other pages.</p>
+            <p>To use the grid in a .md processor, it is simple. You just need to place the form of {{.Content}} inside of the body-text div and set this index as your format for your single page layout. Then, cloning the CSS will get everything looking the same.
+                You'll want to update the tag-link (s) with a custom href and name based on your own post folder content. Same with the title, h1 title, box-link.
+            </p>
         </div>
     </div>
     <script>hljs.initHighlightingOnLoad();</script>
